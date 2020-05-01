@@ -2,8 +2,6 @@ class LoginPageInfo(object):
 
  def __init__(self, driver):
     self.driver = driver
-
-    #self.chrome
     self.username_textbox_id = 'username'
     self.password_textbox_name = 'password'
     self.login_button_id = 'login_btn'

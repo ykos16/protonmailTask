@@ -28,10 +28,6 @@ class labelFolder_Page(object):
  def submit_action(self):
     self.driver.find_element_by_id(self.item_name_field).submit()
 
- #def item_order(self):
-
-
-
  def item_dropdown(self):
     self.driver.find_element_by_css_selector(self.dropdown).click()
 
@@ -42,4 +38,3 @@ class labelFolder_Page(object):
     self.driver.find_element_by_xpath(self.item_delete_confirm).click()
 
 
-#ActionChains(browser).drag_and_drop(label_sort, folder_sort).perform()
