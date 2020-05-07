@@ -1,6 +1,6 @@
 import unittest
-from pages.loginPage import loginPageInfo
-from pages.labelFolderPage import labelFolder_Page
+from Pages.LoginPage import loginPageInfo
+from Pages.labelFolderPage import labelFolder_Page
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 import time
