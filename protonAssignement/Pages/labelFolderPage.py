@@ -6,8 +6,6 @@ class labelFolder_Page(object):
         self.add_label_button = '[data-test-id="folders/labels:addLabel"]'
         self.item_name_field = 'accountName'
         self.edit_btn = '[data-test-id="folders/labels:item-edit"]'
-        self.folder_sort = self.driver.find_element_by_xpath('/html/body/div[1]/div[2]/div/div/div[2]/div/main/div/section/table/tbody/tr[1]/td[1]/span')
-        self.label_sort = self.driver.find_element_by_xpath('/html/body/div[1]/div[2]/div/div/div[2]/div/main/div/section/table/tbody/tr[2]/td[1]/span')
         self.dropdown = '[data-test-id="dropdown:open"]'
         self.item_delete = '[data-test-id="folders/labels:item-delete"]'
         self.item_delete_confirm = '/html/body/div[11]/dialog/form/footer/button[2]'
@@ -36,5 +34,4 @@ class labelFolder_Page(object):
 
  def confirm_delete(self):
     self.driver.find_element_by_xpath(self.item_delete_confirm).click()
-
 
