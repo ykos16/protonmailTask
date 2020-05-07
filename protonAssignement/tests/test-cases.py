@@ -1,5 +1,5 @@
 import unittest
-from pages.loginPage import LoginPageInfo
+from pages.loginPage import loginPageInfo
 from pages.labelFolderPage import labelFolder_Page
 from selenium import webdriver
 from selenium.webdriver import ActionChains

@@ -8,8 +8,7 @@ class labelFolder_Page(object):
         self.edit_btn = '[data-test-id="folders/labels:item-edit"]'
         self.dropdown = '[data-test-id="dropdown:open"]'
         self.item_delete = '[data-test-id="folders/labels:item-delete"]'
-        self.item_delete_confirm = '/html/body/div[11]/dialog/form/footer/button[2]'
-        self.submit_button = '/html/body/div[9]/dialog/form/footer/button[2]'
+        self.item_delete_confirm = "//button[contains(text(),'Confirm')]"
 
  def create_folder(self):
     self.driver.find_element_by_css_selector(self.add_folder_button).click()
@@ -34,4 +33,3 @@ class labelFolder_Page(object):
 
  def confirm_delete(self):
     self.driver.find_element_by_xpath(self.item_delete_confirm).click()
-
