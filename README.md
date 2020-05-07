@@ -16,4 +16,4 @@ For this solution i chose Selenium test automation framework with Chrome web bro
 The tests were writen using Python programing language. When i was writing automation tests 
 I used POM practices to make the page objects reusable in other scripts. I also wrote a login case
 as setUp for the test in order for the to be fully functional. Python console prints the test result,
-I havent implemented any reporting librarys in this assignment.For element inspection i used CroPath.
+I havent implemented any reporting librarys in this assignment. For element inspection i used CroPath.
